@@ -1,0 +1,6 @@
+@NutriGuide_HostAddress = http://localhost:5035
+
+GET {{NutriGuide_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

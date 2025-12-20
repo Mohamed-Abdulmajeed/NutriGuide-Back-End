@@ -1,0 +1,692 @@
+[
+  {
+    "ContainingType": "NutriGuide.Controllers.AdminsController",
+    "Method": "getAllAvoidFoods",
+    "RelativePath": "api/Admins/getAllAvoidFoods",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.AdminsController",
+    "Method": "GetAllCustomer",
+    "RelativePath": "api/Admins/getAllCustomer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.AdminsController",
+    "Method": "getAllDiseases",
+    "RelativePath": "api/Admins/getAllDiseases",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.AdminsController",
+    "Method": "getAllFavoriteMeal",
+    "RelativePath": "api/Admins/getAllFavoriteMeal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.AdminsController",
+    "Method": "getAllMedicines",
+    "RelativePath": "api/Admins/getAllMedicines",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.AdminsController",
+    "Method": "getAllShoppingLists",
+    "RelativePath": "api/Admins/getAllShoppingLists",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.AdminsController",
+    "Method": "getCustomerbyId",
+    "RelativePath": "api/Admins/getCustomerbyId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.CustomersController",
+    "Method": "AddAvoidFood",
+    "RelativePath": "api/Customers/addAvoidFood",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "food",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.CustomersController",
+    "Method": "AddCustomer",
+    "RelativePath": "api/Customers/addCustomer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerDTO",
+        "Type": "NutriGuide.DTOs.CustomerDTO.AddCustomerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.CustomersController",
+    "Method": "AddDisease",
+    "RelativePath": "api/Customers/addDisease",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "diseaseName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.CustomersController",
+    "Method": "addMedicine",
+    "RelativePath": "api/Customers/addMedicine",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medicineDTO",
+        "Type": "NutriGuide.DTOs.CustomerDTO.addMedicineDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.CustomersController",
+    "Method": "DeleteAvoidFood",
+    "RelativePath": "api/Customers/deleteAvoidFood",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "food",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.CustomersController",
+    "Method": "DeleteDisease",
+    "RelativePath": "api/Customers/deleteDisease",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "disease",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.CustomersController",
+    "Method": "deleteMedicine",
+    "RelativePath": "api/Customers/deleteMedicine",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "medicineName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.CustomersController",
+    "Method": "GetCustomer",
+    "RelativePath": "api/Customers/getCustomer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.CustomersController",
+    "Method": "getNotification",
+    "RelativePath": "api/Customers/getNotification",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.CustomersController",
+    "Method": "UpdateActivityLevel",
+    "RelativePath": "api/Customers/updateActivity",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "activity",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.CustomersController",
+    "Method": "UpdateAvoidFood",
+    "RelativePath": "api/Customers/updateAvoidFood",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "foodDTO",
+        "Type": "NutriGuide.DTOs.CustomerDTO.updateFoodDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.CustomersController",
+    "Method": "UpdateDisease",
+    "RelativePath": "api/Customers/updateDisease",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "diseaseDTO",
+        "Type": "NutriGuide.DTOs.CustomerDTO.updateDiseaseDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.CustomersController",
+    "Method": "UpdateHieght",
+    "RelativePath": "api/Customers/updateHieght",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "height",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.CustomersController",
+    "Method": "updateNotification",
+    "RelativePath": "api/Customers/updateNotification",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NotId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.CustomersController",
+    "Method": "UpdateWeight",
+    "RelativePath": "api/Customers/updateWieght",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newWieght",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.MealsController",
+    "Method": "AddFavoriteMeal",
+    "RelativePath": "api/Meals/addFavorite",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mealId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.MealsController",
+    "Method": "AddMeal",
+    "RelativePath": "api/Meals/AddMeal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mealDTO",
+        "Type": "NutriGuide.DTOs.mealDTOs.AddMealDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.MealsController",
+    "Method": "DeleteFavoriteMeal",
+    "RelativePath": "api/Meals/deleteFavorite",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mealId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.MealsController",
+    "Method": "GetAllFavorite",
+    "RelativePath": "api/Meals/GetAllFavorite",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.MealsController",
+    "Method": "getMealByID",
+    "RelativePath": "api/Meals/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mealId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.MealsController",
+    "Method": "UpdateStatusMeal",
+    "RelativePath": "api/Meals/update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UpMealDTO",
+        "Type": "NutriGuide.DTOs.mealDTOs.updateMealDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.PlansController",
+    "Method": "addGoalPlan",
+    "RelativePath": "api/Plans/addGoalPlan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "goalPlan",
+        "Type": "NutriGuide.DTOs.planDTOs.GoalPlanDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.PlansController",
+    "Method": "AddPlan",
+    "RelativePath": "api/Plans/AddPlan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addPlanDTO",
+        "Type": "NutriGuide.DTOs.planDTOs.AddPlanDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.PlansController",
+    "Method": "addSystemTypePlan",
+    "RelativePath": "api/Plans/addSystemTypePlan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "systemPlan",
+        "Type": "NutriGuide.DTOs.planDTOs.SystemTypeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.PlansController",
+    "Method": "deleteGoalPlan",
+    "RelativePath": "api/Plans/deleteGoalPlan",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "goalPlan",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.PlansController",
+    "Method": "deleteSystemTypePlan",
+    "RelativePath": "api/Plans/deleteSystemTypePlan",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "systemType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.PlansController",
+    "Method": "GetAllCustomerPlan",
+    "RelativePath": "api/Plans/GetAllCustomerPlan",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.PlansController",
+    "Method": "getAllGoalPlan",
+    "RelativePath": "api/Plans/getAllGoalPlan",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.PlansController",
+    "Method": "getAlSystemTypePlan",
+    "RelativePath": "api/Plans/getAllSystemTypePlan",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.PlansController",
+    "Method": "GetCurrentPlan",
+    "RelativePath": "api/Plans/GetCurrentPlan",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.PlansController",
+    "Method": "GetPlanByID",
+    "RelativePath": "api/Plans/GetPlanById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "planId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.PlansController",
+    "Method": "GetShoppingList",
+    "RelativePath": "api/Plans/GetShoppingList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "planId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.PlansController",
+    "Method": "updateGoalPlan",
+    "RelativePath": "api/Plans/updateGoalPlan",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateGoal",
+        "Type": "NutriGuide.DTOs.planDTOs.UpdateGoalPlanDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.PlansController",
+    "Method": "updateSystemTypePlan",
+    "RelativePath": "api/Plans/updateSystemTypePlan",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateSystem",
+        "Type": "NutriGuide.DTOs.planDTOs.UpdateSystemTypePlanDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.UsersController",
+    "Method": "ForgotPassword",
+    "RelativePath": "api/Users/forgot-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.UsersController",
+    "Method": "Login",
+    "RelativePath": "api/Users/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginData",
+        "Type": "NutriGuide.DTOs.userDTOs.loginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.UsersController",
+    "Method": "Register",
+    "RelativePath": "api/Users/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerData",
+        "Type": "NutriGuide.DTOs.userDTOs.registerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.UsersController",
+    "Method": "ResendCode",
+    "RelativePath": "api/Users/resend-code-Verification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.UsersController",
+    "Method": "ResetCodeVerification",
+    "RelativePath": "api/Users/reset-code-Verification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "verifyCodeDTO",
+        "Type": "NutriGuide.DTOs.userDTOs.VerifyCodeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.UsersController",
+    "Method": "ResetPassword",
+    "RelativePath": "api/Users/reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "resetPass",
+        "Type": "NutriGuide.DTOs.userDTOs.resetPassDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NutriGuide.Controllers.UsersController",
+    "Method": "VerfyCode",
+    "RelativePath": "api/Users/verify-email-code",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "verifyCodeDTO",
+        "Type": "NutriGuide.DTOs.userDTOs.VerifyCodeDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
