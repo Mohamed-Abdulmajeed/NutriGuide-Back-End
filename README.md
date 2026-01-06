@@ -66,24 +66,14 @@ Below are screenshots from the application UI and API documentation. Click any i
 
 - ![screen1](screen1.png)
 - ![screen2](screen2.png)
-- ![screen3](screen3.png)
-- ![screen4](screen4.png)
-- ![screen5](screen5.png)
-- ![screen6](screen6.png)
-- ![screen7](screen7.png)
 - ![screen8](screen8.png)
-- ![screen9](screen9.png)
 - ![screen10](screen10.png)
-- ![swagger-ui](nutriguide.runasp.net_swagger_index.html.png)
 
 ## Demo Video
 
-A short demo video is included below. Use the player controls to play/pause the recording.
+A short demo video is included. Click the link below to download or view the video:
 
-<video controls width="800">
-	<source src="Nurtiguide.mp4" type="video/mp4">
-	Your browser does not support the video tag.
-</video>
+- [Download Demo Video](Nurtiguide.mp4)
 
 ## API Documentation
 
@@ -94,6 +84,20 @@ The project uses Swagger / OpenAPI to provide interactive API documentation. Use
 The front-end live demo is hosted on Vercel. Open the link below to view the public demo (login page):
 
 - https://nutri-guide-olive.vercel.app/login
+
+## Portfolio
+
+The complete project demo and video walkthrough are featured on the creator's portfolio:
+
+- [Mohamed Abdelmajeed Portfolio](https://mohamed-abdelmajeed-portfolio.vercel.app/)
+
+*The demo video is hosted live on the portfolio site.*
+
+## Front-End Repository
+
+The front-end source code for this project is available on GitHub:
+
+- [NutriGuide Front-End (GitHub)](https://github.com/Mohamed-Abdulmajeed/NutriGuide)
 
 
 ## Database & Migrations
@@ -108,9 +112,10 @@ This project uses EF Core Migrations found in the `Migrations/` folder. Keep mig
 
 ## Contributing
 
-1. Fork the repository and create a feature branch.
+1. Fork the back-end repository and create a feature branch.
 2. Add tests for new functionality where appropriate.
 3. Create a clear PR with description and related issue reference.
+4. For front-end contributions, see the [NutriGuide Front-End Repository](https://github.com/Mohamed-Abdulmajeed/NutriGuide).
 
 ## Contact
 
